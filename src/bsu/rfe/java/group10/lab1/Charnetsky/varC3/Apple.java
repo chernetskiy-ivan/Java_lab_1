@@ -6,19 +6,24 @@ public class Apple extends Food{
     public void setSize(String size){
         this.size = size;
     }
+
     public String getSize(){
         return size;
     }
+
     public Apple(String size){
         super("Яблоко");
         this.size = size;
     }
+
     public void consume(){
         System.out.println(this + " съедено");
     }
+
     public String toString(){
         return super.toString() + " размера ' " + size.toUpperCase() + " ' ";
     }
+
     public boolean equals(Object arg0) {
         if (super.equals(arg0)) {
             if (!(arg0 instanceof Apple)) return false;
