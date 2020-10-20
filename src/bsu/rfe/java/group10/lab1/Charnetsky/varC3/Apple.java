@@ -1,7 +1,7 @@
 package bsu.rfe.java.group10.lab1.Charnetsky.varC3;
 
 public class Apple extends Food{
-    private String size;
+    private String size = null;
 
     public void setSize(String size){
         this.size = size;

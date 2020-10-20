@@ -2,10 +2,11 @@ package bsu.rfe.java.group10.lab1.Charnetsky.varC3;
 
 public class Desert extends Food{
 
-    private String Par1;
-    private String Par2;
+    private String Par1 = null;
+    private String Par2 = null;
 
-    public Desert(String name, String Par1, String Par2){
+
+    public Desert( String Par1, String Par2){
         super("Десерт");
         this.Par1 = Par1;
         this.Par2 = Par2;
@@ -42,5 +43,4 @@ public class Desert extends Food{
         } else
             return false;
     }
-
 }
