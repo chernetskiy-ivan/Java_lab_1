@@ -36,6 +36,9 @@ public class MainApplication {
                 System.out.println("Метод не найден" + eh);
             }
         }
+        for (int j = 0; j < itemsSoFar;j++) {
+            System.out.println(Breakfast[j]);
+        }
 
     }
 }

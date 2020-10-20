@@ -4,6 +4,8 @@ public class Desert extends Food{
 
     private String Par1 = null;
     private String Par2 = null;
+    private Double calories1 = null;
+    private Double calories2 = null;
 
 
     public Desert( String Par1, String Par2){
