@@ -33,4 +33,13 @@ public class Apple extends Food{
             return false;
     }
 
+    public Double CalculateCalories(){
+        switch (size) {
+            case "Большое" -> calories = 10.0;
+            case "Среднее" -> calories = 8.0;
+            case "Маленькое" -> calories = 6.0;
+        }
+        return calories;
+    }
+
 }

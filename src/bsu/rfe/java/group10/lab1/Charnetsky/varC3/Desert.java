@@ -4,8 +4,8 @@ public class Desert extends Food{
 
     private String Par1 = null;
     private String Par2 = null;
-    private Double calories1 = null;
-    private Double calories2 = null;
+    private Double calories = null;
+
 
 
     public Desert( String Par1, String Par2){
@@ -44,5 +44,13 @@ public class Desert extends Food{
             return (Par1.equals(((Desert)arg0).Par1) && Par2.equals(((Desert)arg0).Par2));
         } else
             return false;
+    }
+    public Double CalculateCalories(){
+        if((Par1 == "Торт" && Par2 == "Пицца") || (Par2 == "Пицца" && Par1 == "Торт")){
+            calories = 25.0;
+        } else {
+            calories = 14.0;
+        }
+        return calories;
     }
 }

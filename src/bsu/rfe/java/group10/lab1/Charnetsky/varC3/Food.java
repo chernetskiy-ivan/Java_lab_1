@@ -1,6 +1,6 @@
 package bsu.rfe.java.group10.lab1.Charnetsky.varC3;
 
-public abstract class Food implements Consumable{
+public abstract class Food implements Consumable, Nutritious{
     //пока не надо
 //    @Override
 //    public void consume(){

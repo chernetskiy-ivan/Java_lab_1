@@ -1,6 +1,5 @@
 package bsu.rfe.java.group10.lab1.Charnetsky.varC3;
 
-import java.io.BufferedReader;
 import java.lang.reflect.Constructor;
 
 public class MainApplication {
