@@ -57,12 +57,6 @@ public class MainApplication {
             }
             System.out.println("Калорийность завтрака " + ALL_calories);
         }
-
-
-        for(int i = 0 ; i < itemsSoFar;i++){
-            System.out.println(Breakfast[i]);
-        }
-
         if (case2) { //случай "ClassNotFoundException", когда мы задаем параметр -sort
             Arrays.sort(Breakfast, new Comparator() {
                 public int compare(Object f1, Object f2) {
@@ -78,10 +72,5 @@ public class MainApplication {
                 }
             });
         }
-
-        for(int i = 0 ; i < itemsSoFar;i++){
-            System.out.println(Breakfast[i]);
-        }
-
     }
 }
