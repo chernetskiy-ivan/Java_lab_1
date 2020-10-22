@@ -12,6 +12,9 @@ public class Cheese extends Food{
     public Double CalculateCalories(){
         return calories;
     }
+    public int param(){
+        return 0;
+    }
 // Переопределять метод equals() в данном классе не нужно, т.к. он
 // не добавляет новых полей данных, а сравнение по внутреннему полю name
 // уже реализовано в базовом классе

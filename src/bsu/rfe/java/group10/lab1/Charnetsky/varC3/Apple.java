@@ -42,4 +42,8 @@ public class Apple extends Food{
         return calories;
     }
 
+    public int param(){
+        return 1;
+    }
+
 }
