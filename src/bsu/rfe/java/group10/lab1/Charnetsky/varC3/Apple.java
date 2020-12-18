@@ -1,7 +1,8 @@
 package bsu.rfe.java.group10.lab1.Charnetsky.varC3;
 
 public class Apple extends Food{
-    private String size;
+    private String size = null;
+    private Double calories = null;
 
     public void setSize(String size){
         this.size = size;
@@ -31,4 +32,18 @@ public class Apple extends Food{
         } else
             return false;
     }
+
+    public Double CalculateCalories(){
+        switch (size) {
+            case "Большое" -> calories = 10.0;
+            case "Среднее" -> calories = 8.0;
+            case "Маленькое" -> calories = 6.0;
+        }
+        return calories;
+    }
+
+    public int param(){
+        return 1;
+    }
+
 }

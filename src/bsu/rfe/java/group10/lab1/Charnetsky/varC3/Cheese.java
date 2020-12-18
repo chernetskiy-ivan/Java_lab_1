@@ -1,12 +1,19 @@
 package bsu.rfe.java.group10.lab1.Charnetsky.varC3;
 
 public class Cheese extends Food{
+    private Double calories = 5.0;
 
     public Cheese() {
         super("Сыр");
     }
     public void consume() {
         System.out.println(this + " съеден");
+    }
+    public Double CalculateCalories(){
+        return calories;
+    }
+    public int param(){
+        return 0;
     }
 // Переопределять метод equals() в данном классе не нужно, т.к. он
 // не добавляет новых полей данных, а сравнение по внутреннему полю name

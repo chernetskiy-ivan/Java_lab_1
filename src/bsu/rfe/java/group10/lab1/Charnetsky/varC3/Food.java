@@ -1,11 +1,7 @@
 package bsu.rfe.java.group10.lab1.Charnetsky.varC3;
 
-public abstract class Food implements Consumable{
-    //пока не надо
-//    @Override
-//    public void consume(){
-//        // TODO Auto-generated method stub
-//    }
+public abstract class Food implements Consumable, Nutritious{
+
     String name = null;
 
     public String getName(){
